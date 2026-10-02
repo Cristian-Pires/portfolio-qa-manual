@@ -35,4 +35,3 @@ Este repositorio contiene la documentación técnica, diseño de casos de prueba
 ---
 
 ### 📁 3. Evidencias y Logs
-*(Opcional: Si tienes capturas de pantalla de los fallos, puedes arrastrarlas directamente en este editor de texto para que se muestren las imágenes aquí).*
