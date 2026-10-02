@@ -15,7 +15,7 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
 ### 🐛 Historial de Bugs Reportados
 #### 🟢 BUG 01: LOW
 
-* **Summary** Button "Updaste" located on 'My cart' section doesn't highlight when there is an applicable update
+* **Summary:** Button "Updaste" located on 'My cart' section doesn't highlight when there is an applicable update
 
 * **Description:**
   * When the user write on the box below or modify the number of clothing items, th ebutton "Update" to apply the changes does not change to highlighted to notice the user that there are applicable changes and need to click to update
@@ -27,19 +27,19 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
   4. Change Quantity value or write something on the box below
   5. See that the button "Update" are not changing to highligh when tthere is an applicable change
  
-* **Actual Restul:**
+* **Actual Result:**
   * Button "Update" remains a dull gray when the user change some value
   
 * **Expected Result:**
   * Button "Update" must switch to highlighted when the user change some value updatable
 
-* **Environment**
+* **Environment:**
   * Browser: Brave / V
   * Versión: Brave 1.96.60 (Build oficial) (64 bits)
     Chromium: 154.0.8037.93
   * SO: WIndows 11 x64
     
-* **Evidences**
+* **Evidences:**
   * <img width="1691" height="1193" alt="BUG 01 LOW" src="https://github.com/user-attachments/assets/42829b56-e7a9-4263-8aba-773a613a44c1" />
 
 
@@ -56,25 +56,25 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
   3. Click on "My cart"
   4. See the result
  
-* **Actual Restul:**
+* **Actual Result:**
   * Webpage gets stucked in loading process and doesn't redirect to my cart
   
 * **Expected Result:**
   * Webpage should redirect the user to mycart without problem
 
-* **Environment**
+* **Environment:**
   * Browser: Brave / V
   * Versión: Brave 1.96.60 (Build oficial) (64 bits)
     Chromium: 154.0.8037.93
   * SO: WIndows 11 x64
     
-* **Evidences**
+* **Evidences:**
    * <img width="1691" height="1193" alt="BUG 02 MEDIUM" src="https://github.com/user-attachments/assets/d262f2bb-f0f0-4c20-957a-bcc99af378a6" />
 
 
 #### 🔴 BUG 03: CRITICAL
 
-* **Summary** The payment process fails due to a gateway failure
+* **Summary:** The payment process fails due to a gateway failure
 
 * **Description:**
   * There is a troble with the payment process
@@ -85,19 +85,19 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
   3. Fill the payment fields and click on "Pay Now"
   4. See the result
  
-* **Actual Restul:**
+* **Actual Result:**
   * "There was an issue processing your payment. Try again or use a different payment method" mesage appears when the user try to perform the payment
   
 * **Expected Result:**
   * The payment should be done correctly
 
-* **Environment**
+* **Environment:**
   * Browser: Brave / V
   * Versión: Brave 1.96.60 (Build oficial) (64 bits)
     Chromium: 154.0.8037.93
   * SO: WIndows 11 x64
     
-* **Evidences**
+* **Evidences:**
   * <img width="1691" height="1193" alt="BUG 03 CRITICAL" src="https://github.com/user-attachments/assets/a7ced6d1-a3b0-41f9-a1b8-945a3c8f77ff" />
 
 
