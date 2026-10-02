@@ -15,7 +15,7 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
 ### 🐛 Historial de Bugs Reportados
 #### 🟢 BUG 01: LOW
 
-* **Summary:** Button "Updaste" located on 'My cart' section doesn't highlight when there is an applicable update
+* **Summary:** Button "Update" located on 'My cart' section doesn't highlight when there is an applicable update
 
 * **Description:**
   * When the user write on the box below or modify the number of clothing items, th ebutton "Update" to apply the changes does not change to highlighted to notice the user that there are applicable changes and need to click to update
@@ -24,7 +24,7 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
   1. Go to Sauce Demo home page
   2. Add something to cart
   3. Go to Check Out
-  4. Change Quantity value or write something on the box below
+  4. Change the quantity item value or write something on the box below
   5. See that the button "Update" are not changing to highligh when tthere is an applicable change
  
 * **Actual Result:**
@@ -45,7 +45,7 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
 
 #### 🟡 BUG 02: MEDIUM
 
-* **Summary** Teh webpage keeps stucked in loading process when the user go to mycart after adding something
+* **Summary** The webpage keeps stucked in loading process when the user go to mycart after adding something
 
 * **Description:**
   * If the user add something to cart, and from same spot, click on "My Cart" the webpage gets stucked in loading process without redirect to mycart section. The user need to refresh the webpage, go directly to checkout or change the way going to my cart to solve the problem for example going to another section and then clicking to mycart again to be redirected correctly
@@ -77,11 +77,11 @@ Este es mi repositorio personal de QA Manual. Aquí documento las pruebas de caj
 * **Summary:** The payment process fails due to a gateway failure
 
 * **Description:**
-  * There is a troble with the payment process
+  * There is a trouble with the payment process
   
 * **Steps:**
   1. Having something on the cart go to check out section
-  2. Click on chek out to be redicered to payment process
+  2. Click on check out to be redirected to payment process
   3. Fill the payment fields and click on "Pay Now"
   4. See the result
  
